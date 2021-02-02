@@ -1,0 +1,65 @@
+{
+  "id": "1803667",
+  "name": "SnowyStar",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5467802",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "14516628",
+      "name": "right",
+      "font_class": "left",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "5921016",
+      "name": "qq",
+      "font_class": "qq1",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "6111468",
+      "name": "电报",
+      "font_class": "dianbao",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "6720810",
+      "name": "outlook",
+      "font_class": "outlook",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "7482321",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "9165001",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "11770409",
+      "name": "bilibili",
+      "font_class": "bilibili",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

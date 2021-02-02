@@ -1,0 +1,429 @@
+/*=======================================*/
+/*         01.General Styles             */				
+/*=======================================*/
+body {
+	font-family: 'Poppins', sans-serif;					/*字体样式，默认 Poppins */
+	font-weight: 400;									/*字体粗细，默认 400 */
+	font-size: 14px;									/*字体大小，默认 14px */
+	line-height: 28px;									/*行高，默认 28px */
+	color: #646e7b;									/*颜色，默认 #646e7b */
+	letter-spacing: 0.7px;								/*字符间距，默认 0.7px */
+	overflow-x: hidden;									/*超出宽度裁剪，默认 hidden （超出宽度裁剪，企鹅不出现滚动条）*/
+}
+a {
+	color: #00b0ff;									/*颜色，默认 #00b0ff */
+	-webkit-transition: 0.25s;							/* Safari 和 Chrome */
+	-ms-transition: 0.25s;								/* IE */
+	-moz-transition: 0.25s;								/* Firefox 4 */
+	-o-transition: 0.25s;								/* Opera */
+	transition: 0.25s;									/*过渡效果，默认 0.25s */
+}								
+a:hover {												/* :hover 伪类*/
+	color: #00b0ff;									/*颜色，默认 #00b0ff */
+	opacity: 0.75;										/*不透明度，默认 0.75*/
+	text-decoration: none;								/*文本修饰，默认 none */
+}
+a:focus {												/* :focus 伪类*/
+	text-decoration: none;								/*文本修饰，默认 none */
+}
+a img {
+	-webkit-transition: 0.25s;							/* Safari 和 Chrome */
+	-ms-transition: 0.25s;								/* IE */
+	-moz-transition: 0.25s;								/* Firefox 4 */
+	-o-transition: 0.25s;								/* Opera */
+	transition: 0.25s;									/*过渡效果，默认 0.25s */
+}
+a img:hover {											/* :hover 伪类*/
+	opacity: 0.9;										/*不透明度，默认 0.9 */
+}
+p {
+	margin-bottom: 50px;								/*下外边距，默认 50px */
+}
+p.no-margin-bottom {
+	margin-bottom: 0;									/*下外边距，默认 0 */
+}
+p.lead {
+	font-size: 18px;									/*字体大小，默认 18px */
+	line-height: 28px;									/*字体行高，默认 28px */
+	margin-bottom: 36px;								/*下外边距，默认 36px */
+	font-weight: 300;									/*字体粗细，默认 300  */
+}
+h1 {
+  font-size: 68px;										/*字体大小，默认 68px */
+  line-height: 82px;									/*字体行高，默认 82px */
+  font-weight: 300;										/*字体粗细，默认 300 */
+  margin-top: 0;										/*上外边距，默认 0 */
+  margin-bottom: 12px;									/*下外边距，默认 12px */
+  font-family: 'Quicksand Dash', sans-serif;			/*字体样式，默认 Quicksand Dash */
+}
+h2 {
+	font-family: 'Quicksand', sans-serif;				/*字体样式，默认 Quicksand */
+	font-weight: 400;									/*字体粗细，默认 400 */
+	font-size: 36px;									/*字体大小，默认 36px */
+	line-height: 44px;									/*字体行高，默认 44px */
+	color: #172434;									/*颜色，默认 #172434 */
+	margin: 0;											/*外边距，默认 0 */
+	margin-bottom: 78px;								/*下外边距，默认 78px */
+	letter-spacing: 0;									/*字符间距，默认 0 */
+}
+h2 small {
+	margin: 0;											/*外边距，默认 0 */
+	margin-top: 6px;									/*上外边距，默认 6px */
+	display: block;										/*显示框类型，默认 block */
+	color: #646e7b;									/*颜色，默认 #646e7b */
+	font-size: 16px;									/*字体大小，默认 16px */
+	line-height: 28px;									/*字体行高，默认 28px */
+	font-family: 'Poppins', sans-serif;					/*字体样式，默认 Poppins */
+	font-weight: 400;									/*字体粗细，默认 400 */
+	letter-spacing: 0.8px;								/*字符间距，默认 0.8px */
+}
+h3 {
+	font-family: 'Quicksand', sans-serif;				/*字体样式，默认 Quicksand */
+	font-weight: 400;									/*字体粗细，默认 400 */
+	font-size: 26px;									/*字体大小，默认 26px */
+	line-height: 30px;									/*字体行高，默认 30px */
+	color: #172434;									/*颜色，默认 #172434 */
+	margin: 0;											/*外边距，默认 0 */
+	margin-bottom: 28px;								/*下外边距，默认 28px */
+	letter-spacing: 1.3px;								/*字符间距，默认 1.3px */
+}
+h4 {
+	font-family: 'Quicksand', sans-serif;				/*字体样式，默认 Quicksand */
+	font-weight: 400;									/*字体粗细，默认 400 */
+	font-size: 24px;									/*字体大小，默认 24px */
+	line-height: 28px;									/*字体行高，默认 28px */
+	color: #172434;									/*颜色，默认 #172434 */
+	margin: 0;											/*外边距，默认 0 */
+	margin-bottom: 30px;								/*下外边距，默认 30px */
+	letter-spacing: 0;									/*字符间距，默认 0 */
+}
+h5 {
+	font-family: 'Poppins', sans-serif;					/*字体样式，默认 Poppins */
+	font-weight: 400;									/*字体粗细，默认 400 */
+	font-size: 16px;									/*字体大小，默认 16px */
+	line-height: 28px;									/*字体行高，默认 28px */
+	color: #172434;									/*颜色，默认 #172434 */
+	margin: 0;											/*外边距，默认 0 */
+	margin-bottom: 20px;								/*下外边距，默认 20px */
+	letter-spacing: 0.8px;								/*字符间距，默认 0.8px */
+}
+/***********************************/
+/*              Header             */
+/***********************************/
+.header {
+	z-index: 9;
+	line-height: 120px;
+    background: #172434;
+    position: relative;
+}
+.header .left {
+    position: absolute;
+    top: 0;
+    left: 64px;
+    z-index: 10;
+}
+.header .logo {
+    height: 120px;              /*高度，默认 120px */
+    font-size: 0;               /*字体大小，默认 0 */
+	text-align: center;         /*文本对齐方式，默认 center */
+    display: inline-block;      /*显示框类型，默认 inline-block */
+    vertical-align: top;        /*垂直对齐方式，默认 top */
+  }
+.header .logo:before {
+    content: '';
+	height: 100%;				/*高度，默认 100% */
+	display: inline-block;		/*显示框类型，默认 inline-block */
+	vertical-align: middle;		/*垂直对齐方式，默认 middle */
+}
+.header .logo a {
+    display: inline-block;		/*显示框类型，默认 inline-block */
+	vertical-align: middle;		/*垂直对齐方式，默认 middle */
+	max-height: 120px;			/*最大高度，默认 120px */
+}
+/***********************************/
+/*              Footer             */
+/***********************************/
+.footer .top {
+	background: #fff;
+	position: relative;
+	height: 160px;
+}
+.footer .top .right {
+	position: absolute;
+	top: 0px;
+	right: 50px;
+	line-height: 160px;
+}
+.footer .top .logo {
+	height: 160px;
+	font-size: 0;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}
+.footer .top .logo:before {
+	content: '';
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer .top .logo a {
+	display: inline-block;
+	vertical-align: middle;
+	max-height: 160px;
+}
+.footer .top .social-icons {
+	text-align: center;
+}
+.footer .top .social-icons a {
+	font-size: 18px;
+	line-height: 160px;
+	color: #646e7b;
+	margin: 0 7px;
+}
+.footer .top .social-icons a:hover {
+	color: #00b0ff;
+}
+
+.footer .bottom {
+	font-size: 12px;
+	line-height: 40px;
+	color: #646e7b;
+	text-align: center;
+	letter-spacing: .6px;
+	background: #f1f2f6;
+}
+/***********************************/
+/*             Section             */
+/***********************************/
+.section {
+    position: relative;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section>.inner {
+	padding: 80px 0;
+	background: #fff;
+	position: relative;
+}
+.section.small>.inner {
+	padding: 60px 0;
+}
+.section.large>.inner {
+	padding: 182px 0;
+	padding-top: 268px;
+}
+.section.no-padding>.inner {
+	padding: 0;
+}
+.section.no-padding-bottom>.inner {
+	padding-bottom: 0;
+}
+.section.no-padding-top>.inner {
+	padding-top: 0;
+}
+.section.white>.inner {
+	background: #fff;
+}
+.section.light>.inner {
+	background: #f1f2f6;
+}
+.section.dark>.inner {
+	background: #172434;
+}
+.section.transparent.dark>.inner {
+	background: rgba(23,36,52,.9);
+	color: #fff;
+}
+.section.transparent.light>.inner {
+	background: rgba(241,242,246,.92);
+}
+.fullscreen-section {
+	width: 100vw;
+	height: 100vh;
+	height: calc(100vh - 120px);
+	display: table;
+	table-layout: fixed;
+}
+.fullscreen-section>.left {
+	display: table-cell;
+	height: 100%;
+	vertical-align: top;
+}
+.fullscreen-section>.right {
+	display: table-cell;
+	height: 100%;
+	width: 830px;
+	background: #f1f2f6;
+	vertical-align: top;
+}
+.fullscreen-section>.right>.inner {
+	width: 100%;
+	height: 100vh;
+	height: calc(100vh - 120px);
+	overflow: auto;
+	padding: 0 30px;
+	padding-top: 30px;
+}
+.boxed-section>.inner {
+	position: relative;
+	padding: 0;
+}
+.boxed-section>.inner .box {
+	padding: 80px 30px;
+	background: #fff;
+	position: relative;
+	margin-top: -160px;
+	margin-bottom: 80px;
+}
+.boxed-section>.inner .box.no-side-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+.boxed-section>.inner .box.transparent {
+	padding: 0;
+	background: none;
+}
+/***********************************/
+/*        Highlight Slider         */
+/***********************************/
+.highlight-slider-wrapper {
+	margin-top: 150px;									/*字体上外边距,默认 72px */
+}
+.highlight-slider .item {
+	text-align: center;									/*文本对齐方式，默认 center */
+}
+.highlight-slider .item .icon {
+	display: inline-block;								/*显示框类型，默认 inline-block （行内块） */
+	width: 100px;										/*高度，默认 100px */
+	height: 100px;										/*宽度，默认 100px */
+	line-height: 100px;									/*行高，默认 100px */
+	background: #fff;								/*背景颜色，默认 #fff */
+	border-radius: 50%;									/*圆角边框，默认 50% */
+	position: relative;									/*元素布局，默认 relative （相对定位） */
+}
+.highlight-slider .item .icon:hover {
+	opacity: 1;											/*不透明度，默认 1 */
+	box-shadow: 0 12px 22px rgba(0, 0, 0, 0.35);	/*盒子阴影，默认大小 0 12px 22px 默认颜色 rgba(0, 0, 0, 0.35) */
+}
+.highlight-slider .item .icon img {
+	display: inline-block;								/*显示框类型，默认 inline-block （行内块） */
+	width: auto;										/*图像宽度，默认 auto */
+}
+.highlight-slider .item .icon .overlay {
+	position: absolute;									/*元素布局，默认 absolute （绝对定位）*/
+	top: 0;												/*距离上边距离，默认 0 */
+	left: 0;											/*距左边距离，默认 0 */
+	display: block;										/*显示框类型，默认 block */
+	width: 100%;										/*高度，默认 100% */
+	height: 100%;										/*宽度，默认 100% */
+	color: #fff;									/*颜色，默认 #fff */
+	font-size: 12px;									/*字体大小，默认 12px */
+	line-height: 100px;									/*字体行高，默认 100px */
+	letter-spacing: 1.2px;								/*字符间距，默认 1.2px */
+	background: #00b0ff;							/*背景颜色，默认 #00b0ff */
+	border-radius: 50%;									/*圆角边框，默认 50% */
+	opacity: 0;											/*不透明度，默认 0 */
+	-webkit-transition: .25s;							/* Safari 和 Chrome */
+	-ms-transition: .25s;								/* IE */
+	-moz-transition: .25s;								/* Firefox 4 */
+	-o-transition: .25s;								/* Opera */
+	transition: .25s;									/*过渡效果，默认 0.25s */
+}
+.highlight-slider .item .icon:hover .overlay {
+	opacity: 1;
+}
+.highlight-slider.owl-theme .owl-nav {
+	margin: 0;
+}
+.highlight-slider.owl-theme .owl-nav [class*='owl-'] {
+	margin: 0;
+	padding: 0;
+	border-radius: 50%;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background: #fff;
+	color: #49a0d5;
+	font-size: 30px;
+	letter-spacing: 0;
+	position: absolute;
+	top: 25px;
+	-webkit-transition: .25s;
+	-ms-transition: .25s;
+	-moz-transition: .25s;
+	-o-transition: .25s;
+	transition: .25s;
+}
+.highlight-slider.owl-theme .owl-nav [class*='owl-']:hover {
+	box-shadow: 0 12px 22px rgba(0,0,0,.35);
+	background: #00b0ff;
+	color: #fff;
+	opacity: 1;
+}
+.highlight-slider.owl-theme .owl-nav [class*='owl-'] i {
+	line-height: inherit;
+}
+.highlight-slider.owl-theme .owl-nav .owl-prev {
+	left: -72px;
+}
+.highlight-slider.owl-theme .owl-nav .owl-next {
+	right: -72px;
+}
+/***********************************/
+/*            Categories           */
+/***********************************/
+.category-box {
+	position: relative;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: 'Poiret One', cursive;
+	font-size: 36px;
+	line-height: 36px;
+	letter-spacing: 0;
+	display: block;
+	margin-bottom: 30px;
+	-webkit-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.category-box:hover {
+	opacity: 1;
+	box-shadow: 0 12px 22px rgba(0,0,0,.35);
+}
+.category-box>.inner {
+	height: 270px;
+	background: rgba(23,36,52,.8);
+	-webkit-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.category-box:hover>.inner {
+	background: none;
+}
+.category-box>.inner img {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.category-box>.inner .number {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	color: #00b0ff;
+}
+.category-box>.inner .title {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	color: #fff;
+}
