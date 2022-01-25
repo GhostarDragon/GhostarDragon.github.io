@@ -88,7 +88,8 @@ function _refreshSize() {
 }
 
 function countBlockSize() {
-    blockSize = body.offsetWidth / 4;
+    blockSize = body.offsetWidth;
+    //blockSize = body.offsetWidth / 4;
     body.style.height = window.innerHeight + 'px';
     GameLayerBG.style.height = window.innerHeight + 'px';
     touchArea[0] = window.innerHeight - blockSize * 0;
