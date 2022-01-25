@@ -66,7 +66,8 @@ function _refreshSize() {
         for (var j = 0; j < box.children.length; j++) {
             var r = box.children[j],
                 rstyle = r.style;
-            rstyle.left = (j % 4) * blockSize + 'px';
+            //rstyle.left = (j % 4) * blockSize + 'px';
+	    rstyle.left = blockSize + 'px';
             rstyle.bottom = Math.floor(j / 4) * blockSize + 'px';
             rstyle.width = blockSize + 'px';
             rstyle.height = blockSize + 'px';
